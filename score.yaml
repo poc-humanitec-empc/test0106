@@ -16,7 +16,7 @@ containers:
       Hello: World
 
 resources:
-  my-dns:
+  dns:
     type: dns
   route:
     type: route
