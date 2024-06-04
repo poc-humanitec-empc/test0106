@@ -14,6 +14,8 @@ containers:
     image: . # Set by pipeline
     variables:
       Hello: World
+      REDIS_HOST: ${resources.redis.host}
+      REDIS_PORT: ${resources.redis.port}
 
 resources:
   redis:
