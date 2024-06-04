@@ -16,8 +16,8 @@ containers:
       Hello: World
 
 resources:
-  redis:
-    type: redis
+  # redis:
+  #   type: redis
   # dns:
   #   type: dns
   # route:
