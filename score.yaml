@@ -15,7 +15,7 @@ containers:
     variables:
       Hello: World
 
-resources:
+# resources:
   # redis:
   #   type: redis
   # dns:
